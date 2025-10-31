@@ -70,7 +70,15 @@ Word2Vec (Skip-Gram) and FastText (Skip-Gram) models were trained using the `gen
 | `epochs` | 10 | 10 |
 | `min_n / max_n`| - | 3 / 6 |
 
-**Evaluation Results (from evaluate_models.py):**
+**Processed Data Files:**
+The five two-column Excel output files and the corpus_all.txt file are in the output folder.
+
+**Model Files (Embeddings):**
+The files `word2vec.model` and `fasttext.model`, which should be located in the `embeddings/` folder, have been made accessible via an external Google Drive link because they exceed the GitHub file size limits (2.6 GB).
+
+* **Models Download Link:** `https://drive.google.com/drive/folders/1etLwTxWDvdoc9QvkEWpevQTs-j6Hi04i?usp=sharing`
+
+**Evaluation Results - Terminal Output (from evaluate_models.py):**
 
 --- Step 4: Evaluating embedding models ---
 Models loaded successfully.
